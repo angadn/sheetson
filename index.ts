@@ -8,6 +8,7 @@ app.get("/:id", (req, res) => {
     console.log("Serving document ID:", req.params.id);
     res.status(200).send(json);
   }).catch((err) => {
+    console.error("Failed attempting to serve document ID:", req.params.id);
     res.status(500).send(err);
   });
 })
