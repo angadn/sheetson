@@ -1,0 +1,23 @@
+{
+  "name": "sheetson",
+  "version": "1.0.0",
+  "description": "Exposes Google Drive Spreadsheets as JSON (self-hosted alternative to Sheetsu)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sheetsu",
+    "google",
+    "drive",
+    "spreadsheet",
+    "json",
+    "google"
+  ],
+  "author": "Angad Nadkarni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "google-spreadsheet-to-json": "^0.3.0"
+  }
+}
