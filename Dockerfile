@@ -21,5 +21,5 @@ COPY . /usr/src/sheetson
 # Transpile to JS
 RUN tsc
 
-EXPOSE 4242
+EXPOSE 7000
 CMD ["forever", "-l", "./forever.log", "-e", "./error.log", "-o", "./out.log", "./index.js"]
